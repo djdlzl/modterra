@@ -47,6 +47,22 @@ variable "private_ip" {
   type = string
 }
 
-variable "subnet_s" {
-  type = list
+variable "port_http" {
+  type = string
+}
+variable "port_ssh" {
+  type = string
+}
+variable "port_mysql" {
+  type = string
+}
+variable "port_icmp" {
+  type = string
+}
+variable "instance_type" {
+  type = string
+}
+
+variable "db_instance_type" {
+  type = string
 }
